@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스마트셀 자동 키워드 리포트</title>
+  <style>
+    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    header { background: #111; color: white; padding: 2rem; text-align: center; }
+    main { max-width: 600px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { margin-top: 0; }
+    label { display: block; margin: 1rem 0 0.3rem; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 6px; }
+    button { background: #111; color: white; padding: 1rem; border: none; border-radius: 6px; cursor: pointer; margin-top: 1.5rem; width: 100%; }
+    button:hover { background: #333; }
+    .footer { text-align: center; margin: 3rem 0; color: #888; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⭐ 스마트셀 자동 리포트 ⭐</h1>
+    <p>셀러를 위한 키워드 분석 리포트 - 자동으로 도착!</p>
+  </header>
+  <main>
+    <h2>신청하기</h2>
+    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+      <label for="name">이름</label>
+      <input type="text" name="name" required>
+
+      <label for="email">이메일</label>
+      <input type="email" name="email" required>
+
+      <label for="keyword">분석 키워드</label>
+      <input type="text" name="keyword" placeholder="예: 다이어트 도시락" required>
+
+      <label for="category">카테고리</label>
+      <select name="category">
+        <option>식품</option>
+        <option>생활용품</option>
+        <option>반려동물</option>
+        <option>뷰티</option>
+        <option>패션잡화</option>
+        <option>기타</option>
+      </select>
+
+      <label for="note">기타 요청사항 (선택)</label>
+      <textarea name="note" rows="4"></textarea>
+
+      <button type="submit">리포트 신청하기</button>
+    </form>
+  </main>
+  <div class="footer">
+    © 2025 스마트셀 리포트 | 자동분석 powered by 카이
+  </div>
+</body>
+</html>
